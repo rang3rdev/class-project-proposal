@@ -1,66 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!--
-		Author: Gavin Schnowske
-	-->
+<!--
+    Author: Gavin Schnowske
+-->
 <head>
-        <meta charset="utf-8">
-            <title>Class Project Proposal</title>
+    <meta charset="utf-8">
+    <title>Class Project Proposal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        ul {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            list-style-type: square;
+        }
+    </style>
 </head>
+
 <body>
-   <h1>Final Project Proposal: The Fantasy Football Report</h1>
+    <h1>Final Project Proposal: GraphingGridiron</h1>
     <h5>Last Updated: December 6th, 2023</h5>
-<hr>
+    <hr>
     <p>Project Head: Gavin Schnowske</p>
-<hr>
+    <hr>
+    <h1>Original Plans</h1>
+    <hr>
     <h2>Application Overview</h2>
     <p>The webpage will be designed around the visualization of my collected data, wherein I will include 
     a variety of charts as to best portray all of the different dimensions to my statistics.
     I also intend to add interactivity with the graphs, such as possibly displaying something
     when you hover your cursor over a graph, or the clicking of a button to change some part of
     the application. There will also be additional information which 
-    may appear displayed alongside the graphs, wether that is to provide better clarification, 
+    may appear displayed alongside the graphs, whether that is to provide better clarification, 
     or to give my own personal thoughts relevant to the data at hand.</p>
-<hr>
+    <hr>
     <h2>Technology Overview</h2>
     <ul style="list-style-type:square;">
-		<li>Languages: HTML, CSS, Python 3.12.0</li>
-		<li>Libraries: Matplotlib, Pandas<span>&#40;</span>?<span>&#41;</span></li>
-		<li>Platforms: Labtop & Desktop</li>
+        <li>Languages: HTML, CSS, Python 3.12.0</li>
+        <li>Libraries: Matplotlib, Pandas<span>&#40;</span>?<span>&#41;</span></li>
+        <li>Platforms: Labtop & Desktop</li>
         <li>Hosting: Github</li>
-	</ul>
-<hr>
+    </ul>
+    <hr>
     <h2>Feature List</h2>
     <ul style="list-style-type:square;">
-		<li>Implementation of various different forms of data visualization
+        <li>Implementation of various different forms of data visualization
         <span>&#40;</span>Bar Graphs, Pie Charts, Scatter Graphs, etc...<span>&#41;</span>.</li>
-		<li>Providing the background as to how and where I had gathered my data, as well as 
-        summarizing some important details needed in order be able to comprehend the data, such as what fantasy football is.</li>
+        <li>Providing the background as to how and where I had gathered my data, as well as 
+        summarizing some important details needed in order to comprehend the data, such as what fantasy football is.</li>
         <li>Some form of user interactivity with the data presented.</li>
-		<li>An aesthetically pleasing website that is designed around the chartered data.</li>
-        <li>the telling of a story through my method of data presentation, recapping all of the events of
+        <li>An aesthetically pleasing website that is designed around the chartered data.</li>
+        <li>The telling of a story through my method of data presentation, recapping all of the events of
         interest and statistical oddities which occurred throughout my fantasy football league week by week.</li>
     </ul>
-<hr>
+    <hr>
     <h2>Future Feature List</h2>
     <ul style="list-style-type:square;">
-    <li>Animations for my data</li>
-    <li>The creation of custom graphics for the interface</li>
-    <li>The ability for the user to visualize their own collected data from their fantasy league through my application</li>
+        <li>Animations for my data</li>
+        <li>The creation of custom graphics for the interface</li>
+        <li>The ability for the user to visualize their own collected data from their fantasy league through my application</li>
     </ul>
-<hr>
+    <hr>
     <h2>Basic Technical Features</h2>
     <ul style="list-style-type:square;">
-    <li>Backend usage of terminal to execute and test python code</li>
-    <li>Programming with CSS to create an aesthetically pleasing webpage</li>
-    <li>HTML to format the webpage</li>
-    <li>Hosted through a Github repository made through the help of GitHub Pages</li>
+        <li>Backend usage of terminal to execute and test python code</li>
+        <li>Programming with CSS to create an aesthetically pleasing webpage</li>
+        <li>HTML to format the webpage</li>
+        <li>Hosted through a Github repository made through the help of GitHub Pages</li>
     </ul>
-<hr> 
+    <hr> 
     <h2>Advanced Technical Features</h2>
     <ul style="list-style-type:square;">
-    <li>The use of python libraries such as Matplotlib and Pandas</li>
-    <li>The Plotting and graphing of data using python</li>
+        <li>The use of python libraries such as Matplotlib and Pandas</li>
+        <li>The Plotting and graphing of data using python</li>
     </ul>
+    <hr>
+    <h1>What I Delivered On<h1>
+    <hr>
+    <p>Overall, I would say that I stayed relatively faithful to my original plans as I look back at my finished product.</p>
+    <p>Starting off with the proposed Feature list, I successfully met my goal of adding various different forms of data visualization, such as but not limited to: 
+    Bar Graphs, Line Graphs, Scatter Plots, and Pie Charts.</p>
+    <p>I also gave background information as to the source of my data, 
+    as well as summarized what exactly fantasy football is for those who may be unaware of the game.</p>
+    <p>I was similarly able to add user interactivity to my graphs through switching from my original proposed python library I intended to use, 
+    being Matplotlib, to instead using Plotly, as I liked its features more, also seeing it as easier to translate into an HTML webpage in comparison to Matplotlib.</p>
+    <p>Using Plotly made the implementation of features such as seeing someone's name when you hover over a marker in a graph, 
+    or making buttons that can hide a certain person's data from the graph relatively streamlined and easy for me.</p>
+    <p>I also did frequently add additive commentaries to my graphs, whether that be giving some guidance on how you
+    can interact with the graph as I did for the first graph, or simply allowing myself to point out 
+    some of the peculiarities I noticed in the development of this application. </p>
+    <p>For the design of the website, I'd say I was effective at making a aesthetically pleasing yet simple webpage
+    that was designed around data visualization at its central focus. I nearly used all 
+    of proposed technical features for my project, with the sole exception being using Plotly over Matplotlib, as I explained earlier.</p>
+    <p>I did use python like stated in my original plans, albeit
+    I used an older version as to be able to use the Conda package manager, which would allow me to work with Plotly.</p>
+    <p>I also went beyond my proposed python libraries that I would
+    use, as I added numpy for the creation of my stat tables.</p> 
+    <p>For my proposed telling of a story through my method of data visualization is one part to my final project that I failed to
+    fulfill upon. As my project furthered, I realized I wanted to instead invest more of my time in working with statistics, 
+    rather than trying to build an overarching narrative throughout
+    the presentation of my data, preferring to instead focus my writing juices towards my commentaries under graphs.</p>
+    <p> As a final note: I did change the name of my project from GraphingGridiron to The Fantasy Football Report.
+    I did this mainly becaused I liked the more newspaper-like sound of The Fantasy Football Report, as well as it being a much more simple
+    and to the point name than GraphingGridiron ever was. 
+    </p>
+<hr>
+<h2>Features I Would've Added if I Had More Time</h2>
+<hr>
+<p>I think my future feature list still holds true as the features I would've added if given more time to work on this project.
+I did try to add animations to my program but I just couldn't get it to work the way I wanted, so animations would probably be the first
+thing I would try to tackle if I were given more time to develop this project. As for something besides my original future features list, I probably would've 
+expanded my data from my week 1 to week 10 sample to week 1 to week 14, as when I started this project we had only reached the tenth week of fantasy football,
+as to now where we are now about to start the first games of week 14. 
+</p>
+<hr>
+<h2>Contact Information</h2>
+<hr>
+<ul style="list-style-type:square;">
+        <li>Lewis Email: gavintschnowske@lewisu.edu</li>
+        <li>Personal Email: gts5225@yahoo.com</li>
+    </ul>
+
 </body>
 </html>
